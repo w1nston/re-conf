@@ -5,6 +5,6 @@ import Day from '../Day';
 describe('<Day/>', () => {
   it('renders', () => {
     const component = shallow(<Day />);
-    expect(component).toMatchSnapshot();
+    expect(component.type()).not.toBe(null);
   });
 });

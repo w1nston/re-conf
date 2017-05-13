@@ -10,9 +10,6 @@ body {
   margin: 0;
   padding: 20px;
   font-family: 'Francois One', sans-serif;
-  font-size: 20px;
-}
-
-h1, h2, h3, h4 {
-  font-family: 'Love Ya Like A Sister', 'Arial', 'sans-serif';
+  color: #385f71;
+  background-color: rgba(242, 246, 208, 0.1);
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Schedule from '../Schedule';
+import Schedule, { Title } from '../Schedule';
 
 describe('<Schedule/>', () => {
-  it('renders', () => {
+  it('renders a title', () => {
     const component = shallow(<Schedule />);
-    expect(component).toMatchSnapshot();
+    expect(component.find(Title).length).toBe(1);
   });
 });
